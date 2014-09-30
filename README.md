@@ -2,7 +2,7 @@
 
 Developed by Magento Core Team.
 
-This script will create to files containing the Magento code and database.  The database will be dumped without log table contents and with obscured customer data.
+This script will create two files containing the Magento code and database.  The database will be dumped without log table contents and with obscured customer data.
 
 ## Example Usage
 
