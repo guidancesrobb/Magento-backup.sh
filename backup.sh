@@ -50,7 +50,12 @@ createCodeDump() {
     install.php
     mage
     *.patch
-    *.sh"
+    *.sh
+    var/log/system.log
+    var/log/exception.log
+    var/log/shipping*.log
+    var/log/payment*.log
+    var/log/paypal*.log"
 
     # Create code dump
     DISTRNAMES=
@@ -107,7 +112,9 @@ createDbDump() {
     report_event
     report_viewed_product_index
     dataflow_batch_export
-    dataflow_batch_import"
+    dataflow_batch_import
+    enterprise_support_backup
+    enterprise_support_backup_item"
 
     # Sanitize data
     SANITIZE=1
